@@ -18,6 +18,9 @@ This project implements a chatbot that utilizes Yahoo Finance data to aid quanti
 Make sure to set the following environment variables:
 
 - `GROQ_API_KEY`: API key for accessing the Groq service. Obtain this key from [Groq API](https://console.groq.com/keys).
+
+Optional environment variables:
+
 - `LANGCHAIN_TRACING_V2`: Enable LangChain tracing. Set it to `true` to activate tracing.
 - `LANGCHAIN_ENDPOINT`: Endpoint for the LangChain API. Set it to `https://api.smith.langchain.com`.
 - `LANGCHAIN_API_KEY`: API key for accessing the LangChain service. Obtain this key from [Langchain API](https://smith.langchain.com/).
